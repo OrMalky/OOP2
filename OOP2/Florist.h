@@ -11,5 +11,7 @@ private:
 	DeliveryPerson* deliveryPerson;
 
 public:
+	Florist();
+	Florist(std::string n, Wholesaler* w, FlowerArranger* a, DeliveryPerson* d);
 	void acceptOrder(Person* p, std::vector<std::string> order);
 };

@@ -7,5 +7,7 @@ private:
 	Grower* grower;
 
 public:
+	Wholesaler();
+	Wholesaler(std::string n, Grower* g);
 	FlowerBouquet* acceptOrder(Person* p, std::vector<std::string> order);
 };
