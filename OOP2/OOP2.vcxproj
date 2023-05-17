@@ -129,6 +129,16 @@
   <ItemGroup>
     <ClCompile Include="OOP2.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DeliveryPerson.h" />
+    <ClInclude Include="Florist.h" />
+    <ClInclude Include="FlowerArranger.h" />
+    <ClInclude Include="FlowerBouquet.h" />
+    <ClInclude Include="Gardener.h" />
+    <ClInclude Include="Grower.h" />
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="Wholesaler.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
